@@ -1,54 +1,68 @@
-# React + TypeScript + Vite
+# 🚀 Postify – Full Stack Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Postify is a modern full-stack social media application built with **React.js**, **Appwrite**, **Tailwind CSS**, and **TanStack Query**.  
+Users can create posts, explore content, interact with others, and manage their profiles — all in a smooth, responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React.js** – Component-based frontend
+- 🎨 **Tailwind CSS** – Utility-first modern styling
+- 🧠 **TanStack Query** – Efficient data fetching & caching
+- 🧰 **Appwrite** – Backend services for auth, database, and file storage
+- 🚀 **Vite** – Fast and minimal React setup
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✨ Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 🔐 User Authentication (Appwrite)
+- 📝 Create, Read, Update, Delete (CRUD) Posts
+- 🔍 Explore & Search Content
+- 🧵 Post Details & Comments
+- 💾 Media Uploads with Storage
+- ⚡ Real-time updates and smooth UI
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+## 🌐 Live Demo
+
+🔗 [Live Site](https://postiffy.netlify.app)
+
+## 📁 GitHub Repository
+
+📦 [GitHub Repo](https://github.com/Ashikur-ai/Postify)
+
+---
+
+## 🧠 What I Learned
+
+- Setting up a scalable full-stack app with **Appwrite**
+- Managing global state & caching using **TanStack Query**
+- Structuring React projects for scalability
+- Tailwind UI responsiveness & component reusability
+
+---
+
+## 🚧 Still in Progress...
+
+Postify is actively being developed — more features coming soon:
+- ✅ Follow system
+- ✅ Like & Share post feature
+- ✅ Notifications
+- ✅ Dark Mode
+
+---
+
+## 👋 Let’s Connect
+
+If you’re working on similar projects or just love building in public, let’s connect!  
+Find me on [LinkedIn](https://linkedin.com/in/your-profile) and let’s talk dev, MERN, and building cool stuff.
+
+---
+
+## 📜 License
+
+MIT License – free to use, modify, and contribute.
