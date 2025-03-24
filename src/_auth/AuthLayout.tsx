@@ -1,5 +1,4 @@
 import { Navigate, Outlet } from 'react-router-dom';
-
 const AuthLayout = () => {
   const isAuthenticated = false;
   return (
@@ -9,9 +8,13 @@ const AuthLayout = () => {
           <Navigate to={"/"} />
         ) : (
           <>
-            <section>
+            <section className='flex flex-1 justify-center items-center flex-col py-10'>
               <Outlet />
             </section>
+
+            <img src="/assets/images/side-img.svg" alt="log"
+              className='hidden xl:block h-screen w-1/2 object-cover bg-no-repeat'
+            />
           </>
         )
       }
